@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
 body {
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: $size-text;
-  line-height: 1.5;
+  line-height: 26px;
+  font-weight: 400;
   color: $c-text;
 }
 
 .title {
-  color: $c-alt;
+  color: $c-h1;
+}
+
+.Ss-title{
+  color: $c-h1;
 }
