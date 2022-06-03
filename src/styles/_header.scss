@@ -1,0 +1,59 @@
+/*
+Header : logo nav et darkmode
+*/
+
+@import '_variables';
+
+*{
+    margin: 0;
+}
+
+.header{
+    height: 108px;
+    background-color: $c-bg;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-top: 25px;
+    width: 150px;
+    height: auto;
+    margin-left: 78px;
+}
+
+.menu{
+    padding-top: 34px;
+    display: flex;
+}
+
+.menu__el{
+    list-style-type: none;
+    margin-right: 78px;
+    a{
+        text-decoration: none;
+        color: $c-text;
+    }
+
+    a:hover{
+        color: $c-sec;
+        text-decoration: underline $c-sec;
+    }
+
+    a:active{
+        color: $c-troi;
+        text-decoration: underline $c-troi;
+    }
+}
+
+.darkmode{
+    width: 32px;
+    height: auto;
+}
+
+
+
