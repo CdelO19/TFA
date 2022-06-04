@@ -1,0 +1,94 @@
+.footer{
+    margin-top: 18px;
+    padding-bottom: 34px;
+    background-color: $c-bg;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.iconefooter{
+    padding-top: 34px;
+}
+
+.reseausociaux{
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reseausociaux__el{
+    list-style-type: none;
+    width: 50px;
+}
+
+.insta{
+    fill: $c-bg;
+    stroke: $c-sec;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.twitter{
+    fill: none;
+    stroke: $c-sec;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.mail{
+    fill: $c-bg;
+    stroke: $c-sec;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.logodwt{
+    padding-top: 52px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.lienfooter{
+    padding-inline-start: 0;
+}
+
+.lienfooter__el{
+    list-style-type: none;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 52px;
+    a{
+        color: $c-lien;
+        text-decoration: none;
+    }
+}
+
+@media(min-width: 1000px){
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .insta:hover{
+        stroke: $c-cinq;
+        
+    }
+
+    .twitter:hover{
+        stroke: $c-cinq;
+    }
+
+    .mail:hover{
+        stroke: $c-cinq;
+    }
+
+    .lienfooter__el{
+        a:hover{
+            color: $c-cinq;
+            text-decoration: underline $c-cinq;
+        }
+    }
+}
