@@ -21,6 +21,7 @@ Header : logo nav et darkmode
 }
 
 .logo{
+    padding-left: 18px;
     padding-top: 25px;
     width: 150px;
     height: auto;
@@ -79,16 +80,27 @@ Header : logo nav et darkmode
         height: auto;
         margin-left: 78px;
     }
+
+    .nav--mobile__el{
+        padding-left: 52px;
+    }
+
+    .burger{
+        display: none;
+    }
     
     .menu{
         padding-top: 34px;
         display: flex;
+        background-color: transparent;
+        height: 0;
     }
     
     .menu__el{
         font-weight: 600;
         list-style-type: none;
         margin-right: 78px;
+        padding-top: 0;
 
         a{
             text-decoration: none;
