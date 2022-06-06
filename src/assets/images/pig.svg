@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#81949F;}
+	.st1{fill:#FFB0A0;}
+	.st2{fill:#EF9A83;}
+	.st3{fill:none;stroke:#FFB0A0;stroke-width:0.7919;stroke-miterlimit:10;}
+	.st4{fill:#050505;}
+</style>
+<ellipse class="st0" cx="24.7" cy="39.7" rx="16.7" ry="4.8"/>
+<g id="Calque_5">
+	<path class="st1" d="M6.8,16.9c-1.3,0.4-4.5,1.5-5.3,2.6c-0.6,0.8-0.4,5.3,0.3,5.9s2.9,2.5,4,2.5"/>
+	<polyline class="st1" points="15.7,37.6 15.7,41.6 13.4,41.5 13,36.4 	"/>
+	<polyline class="st2" points="14.6,37.2 14.8,41.5 16.5,41.5 16.8,38 	"/>
+	<polyline class="st1" points="15.6,37.5 15.6,42.1 18.9,42.2 18.8,38.4 	"/>
+	<polyline class="st1" points="32.7,37.5 32.9,41.1 30.1,41.2 29.7,38.4 	"/>
+	<polyline class="st2" points="31.7,37.9 32,41.1 33.6,41.1 33.7,37.2 	"/>
+	<polyline class="st1" points="32.7,37.6 32.8,41.8 36.3,41.7 36.1,35.9 	"/>
+	<path class="st1" d="M15.2,10.3l0.1-4.2c0,0,3.7,0.4,4.3,2.8"/>
+	<path class="st3" d="M42.9,23.8c2,0.7,8-2.8,2.4-3.9c-3-0.6-1.8,4,1.6,3.7"/>
+	<ellipse class="st2" cx="3.2" cy="21.9" rx="1.5" ry="2.2"/>
+	<path class="st1" d="M43.1,23.5C43.1,32,36.2,39,24.2,39s-19-7-19-15.4s7-15.1,19-15.1S43.1,15.1,43.1,23.5z"/>
+	<path class="st4" d="M14.1,16.1c0,1.2-0.6,1.7-1.4,1.7S12,17.4,12,16.1s-0.1-1.8,0.7-1.8S14.1,14.9,14.1,16.1z"/>
+</g>
+</svg>
