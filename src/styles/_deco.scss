@@ -112,6 +112,43 @@
     padding: 26px;
 }
 
+.col{
+    width: 80px;
+    color: $c-bg;
+    border-radius: 5px;
+    border: solid 2px $c-text;
+}
+
+.col--1{
+    background-color: $c-sec;
+}
+
+.col--2{
+    background-color: $c-troi;
+}
+
+.col--3{
+    background-color: $c-quat;
+    color: $c-text;
+}
+
+.col--4{
+    background-color:$c-cinq;
+}
+
+.col--5{
+    background-color: $c-bg;
+    color: $c-text;
+}
+
+.col--6{
+    background-color: $c-text;
+}
+
+.iconeui-kit{
+    width: 50px;
+}
+
 @media(min-width: 600px){
     .bulle{
         margin-left: 26px;
