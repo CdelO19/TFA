@@ -14,6 +14,7 @@ body {
   line-height: 52px;
   margin-left: 26px;
   margin-right: 26px;
+  padding-bottom: 26px;
 }
 
 .ss-title{
@@ -22,6 +23,25 @@ body {
   line-height: 41px;
   margin-left: 26px;
   margin-right: 26px;
+  padding-bottom: 26px;
+}
+
+.sss-title{
+  color: $c-h1;
+  font-size: 23px;
+  line-height: 33px;
+  margin-left: 26px;
+  margin-right: 26px;
+  padding-bottom: 26px;
+}
+
+.ssss-title{
+  color: $c-h1;
+  font-size: 18px;
+  line-height: 26px;
+  margin-left: 26px;
+  margin-right: 26px;
+  padding-bottom: 26px;
 }
 
 .slogan{
@@ -50,6 +70,18 @@ body {
   font-weight: 400;
 }
 
+.txt{
+  margin-bottom: 26px;
+  max-width: 75ch;
+  margin-left: 104px;
+}
+
+a{
+  color: $c-lien;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 @media(min-width: 800px){
   .ss-title{
     width: 450px;
@@ -57,5 +89,9 @@ body {
 
   .ss-title--right{
     margin-left: auto;
+  }
+
+  a:hover{
+    text-decoration: underline $c-lien;
   }
 }

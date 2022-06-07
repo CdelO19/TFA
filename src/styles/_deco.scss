@@ -60,6 +60,58 @@
     margin-left: auto;
 }
 
+.liste{
+    list-style-type: disc;
+    margin-left: 104px;
+
+    li{
+        padding-bottom: 26px;
+    }
+}
+
+.logocase{
+    display: block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.logocase__el{
+    padding-bottom: 26px;
+    width: 100px;
+}
+
+.iconecase{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+   justify-content: space-around;
+}
+
+.iconecase__el{
+    width: 50px;
+    padding-bottom: 26px;
+}
+
+.userjour{
+    list-style-type: none;
+}
+
+.userjourney{
+    width: 250px;
+    image-orientation: none;
+    margin: 0;
+}
+
+.moodboard{
+    width: 250px;
+}
+
+.detail{
+    color: $c-sec;
+    font-weight: 500;
+    padding: 26px;
+}
+
 @media(min-width: 600px){
     .bulle{
         margin-left: 26px;
@@ -81,6 +133,14 @@
     .tel{
         margin-left: 18px;
     }
+
+    .moodboard{
+        width: 500px;
+    }
+
+    .userjourney{
+        width: 500px;
+    }
 }
 
 @media(min-width: 800px){
@@ -101,6 +161,29 @@
     .bulle--2{
         margin-left: 310px;
     }
+
+    .logocase{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logocase__el{
+        padding-bottom: 0;
+        width: 250px;
+    }
+
+    .moodboard{
+        width: 700px;
+    }
+
+    .detail:hover{
+        cursor: pointer;
+    }
+
+    .userjourney{
+        width: 700px;
+    }
 }
 
 @media(min-width: 1000px){
@@ -117,5 +200,13 @@
         width: 500px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .moodboard{
+        width: 900px;
+    }
+
+    .userjourney{
+        width: 900px;
     }
 }
