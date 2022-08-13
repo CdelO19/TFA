@@ -24,6 +24,19 @@ body {
   color: $c-bg;
 }
 
+.sst{
+  padding-top: 68px;
+  margin-left: 16px;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.0035em;
+  font-weight: 500;
+}
+
+.sst--co{
+  color: $c-sec;
+}
+
 .ss-title{
   color: $c-h1;
   font-size: 29px;
@@ -54,14 +67,18 @@ body {
   font-weight: 600;
 }
 
-
-
 .cons{
-  font-size: 29px;
-  line-height: 41px;
-  margin-left: 30px;
-  padding-top: 37px; 
-  width: 358px;
+  padding-inline-start: 0;
+  list-style-type: none;
+  margin-left: 16px;
+  
+}
+
+.cons__el{
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.0032em;
+  padding-top: 32px; 
 }
 
 .cons--2{
