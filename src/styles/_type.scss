@@ -10,12 +10,18 @@ body {
 
 .title {
   color: $c-h1;
-  font-size: 37px;
-  line-height: 52px;
-  margin-left: 26px;
-  margin-right: 26px;
-  padding-bottom: 26px;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.0037em;
+  margin-left: 16px;
+  padding-top: 48px;
   font-weight: 600;
+  width: 330px;
+  height: 123px;
+}
+
+.slogan{
+  color: $c-bg;
 }
 
 .ss-title{
@@ -48,11 +54,7 @@ body {
   font-weight: 600;
 }
 
-.slogan{
-  font-size: 37px;
-  line-height: 52px;
-  font-weight: 500;
-}
+
 
 .cons{
   font-size: 29px;
@@ -84,6 +86,16 @@ a{
   color: $c-lien;
   text-decoration: none;
   font-weight: 600;
+}
+
+.typopub{
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.0038em;
+  width: 273px;
+  height: 96px;
+  padding-top: 32px;
+  margin-left: 16px;
 }
 
 @media(min-width: 800px){

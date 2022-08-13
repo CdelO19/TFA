@@ -1,3 +1,8 @@
+.deco{
+    background-image: url(../assets/images/Vector1.svg);
+    background-repeat: no-repeat;
+}
+
 .mockup{
     height: 400px;
     background-color: #21295c;
@@ -25,10 +30,10 @@
 }
 
 .cochon{
-    width: 250px;
+    width: 190px;
     display: block;
     margin-left: auto;
-    margin-right: 18px;
+    margin-right: 16px;
 
 }
 
@@ -46,18 +51,26 @@
 
 .pub{
     background-color: $c-quat;
-    margin: 26px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
     border-radius: 26px;
     display: block;
-    padding: 26px;
+    width: 396px;
+    height: 245px;
+}
+
+.tel{
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    justify-content: space-between;
+    margin-top: 32px;
 }
 
 .badge{
-    width: 200px;
-    margin-top: 26px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    width: 166px;
+    height: 50px;
 }
 
 .liste{
