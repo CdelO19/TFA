@@ -3,6 +3,10 @@
     background-repeat: no-repeat;
 }
 
+.div1{
+    display: flex;
+}
+
 .mockup{
     height: 400px;
     background-color: #21295c;
@@ -35,6 +39,36 @@
     margin-left: auto;
     margin-right: 16px;
 
+}
+
+.imgcons{
+    width: 211px;
+    height: 385px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.imgcons--2{
+    margin-top: 0;
+}
+
+.div2{
+    margin-left: 16px;
+    position: relative;
+    bottom: 37px;
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.decosec{
+    background-image: url(../assets/images/Vector3.svg);
+    background-repeat: no-repeat;
+    height: 549px;
+    margin-top: 32px;
 }
 
 .bulle{

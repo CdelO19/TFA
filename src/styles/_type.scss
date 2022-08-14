@@ -93,6 +93,53 @@ body {
   font-weight: 400;
 }
 
+.maj{
+  color: $c-sec;
+  text-transform: uppercase;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.0037em;
+  font-weight: 400;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.maj--modifier{
+  color: $c-bg;
+}
+
+.ssst{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.0035em;
+  color: $c-text;
+  width: 11ch;
+}
+
+.ssst--1{
+  margin-top: 32px;
+  width: 39px;
+  position: relative;
+  left: 170px;
+}
+
+.ssst--2{
+  position: relative;
+  top: 60px;
+  left: 23px;
+  color: $c-bg;
+  width: 50px;
+}
+
+.ssst--3{
+  position: relative;
+  left: 82px;
+  bottom: -5px;
+  width: 20ch;
+  color: $c-bg;
+}
+
 .txt{
   margin-bottom: 26px;
   max-width: 75ch;
