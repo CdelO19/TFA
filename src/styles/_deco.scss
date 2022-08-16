@@ -1,36 +1,11 @@
 .deco{
     background-image: url(../assets/images/Vector1.svg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .div1{
     display: flex;
-}
-
-.mockup{
-    height: 400px;
-    background-color: #21295c;
-    border-radius: 50%;
-}
-
-.imgmockup{
-    padding-top: 52px;
-    height: 300px;
-    margin-top: 52px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.precons{
-    margin-top: 52px;
-    background-color: $c-quat;
-    padding-top: 52px;
-    padding-bottom: 52px;
-}
-
-.precons--modifer{
-    background-color: $c-troi;
 }
 
 .cochon{
@@ -69,6 +44,7 @@
     background-repeat: no-repeat;
     height: 549px;
     margin-top: 32px;
+    background-size: cover;
 }
 
 .bulle{
@@ -85,8 +61,8 @@
 
 .pub{
     background-color: $c-quat;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 32px;
     border-radius: 26px;
     display: block;
@@ -107,6 +83,7 @@
     background-image: url(../assets/images/Vector2.svg);
     background-repeat: no-repeat;
     height: 371px;
+    background-size: cover;
 }
 
 .badge{
@@ -208,18 +185,14 @@
         margin-left: 26px;
     }
 
-    .mockup{
-        height: 500px;
+    .deco2{
+        height: 390px;
     }
 
-    .imgmockup{
-        height: 400px;
+    .div1{
+        justify-content: center;
     }
 
-    .pub{
-        display: flex;
-        align-items: center;
-    }
 
     .tel{
         margin-left: 18px;
@@ -235,6 +208,27 @@
 }
 
 @media(min-width: 800px){
+    .cochon{
+        width: 300px;
+    }
+
+    .deco2{
+        height: 442px;
+    }
+
+    .imgcons{
+        width: 232.1px;
+        height: 423.5px;
+    }
+
+    .div2{
+        bottom: 41px;
+    }
+
+    .decosec{
+        height: 636px;
+    }
+
     .mockup{
         width: 700px;
         display: block;
@@ -291,6 +285,12 @@
         width: 500px;
         margin-left: auto;
         margin-right: auto;
+        display: flex;
+        height: 196px;
+    }
+
+    .tel{
+        display: block;
     }
 
     .moodboard{
@@ -300,4 +300,44 @@
     .userjourney{
         width: 900px;
     }
+
+    .pageapp{
+        display: flex;
+    }
+    .decosec{
+        background-image: url(../assets/images/Vector3.svg);
+        background-repeat: no-repeat;
+        height: 549px;
+        margin-top: 32px;
+        background-size: cover;
+        background-position-x: -55px;
+        background-position-y: -1px;
+        margin-left: auto;
+        width: 300px;
+    }
+    
+    .imgcons{
+        width: 211px;
+        height: 385px;
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    
+    .imgcons--2{
+        margin-top: 0;
+    }
+    
+    .div2{
+        margin-left: 16px;
+        position: relative;
+        bottom: 37px;
+        width: 50px;
+    }
+    
+    .div3{
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+    }
+    
 }
