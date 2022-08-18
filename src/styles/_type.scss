@@ -20,6 +20,11 @@ body {
   height: 123px;
 }
 
+.title--1{
+  height: auto;
+  color: $c-sec;
+}
+
 .slogan{
   color: $c-bg;
 }
@@ -38,33 +43,33 @@ body {
 }
 
 .ss-title{
-  color: $c-h1;
-  font-size: 29px;
-  line-height: 41px;
-  margin-left: 26px;
-  margin-right: 26px;
-  padding-bottom: 26px;
-  font-weight: 600;
+  color: $c-sec;
+  margin-left: 16px;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.0035em;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 
 .sss-title{
-  color: $c-h1;
-  font-size: 23px;
-  line-height: 33px;
-  margin-left: 26px;
-  margin-right: 26px;
-  padding-bottom: 26px;
-  font-weight: 600;
+  color: $c-sec;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.0035em;
+  margin-left: 32px;
+  margin-bottom: 16px;
 }
 
 .ssss-title{
-  color: $c-h1;
+  color: $c-sec;
   font-size: 18px;
   line-height: 26px;
   margin-left: 26px;
   margin-right: 26px;
   padding-bottom: 26px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .cons{
@@ -141,9 +146,12 @@ body {
 }
 
 .txt{
-  margin-bottom: 26px;
+  margin-bottom: 16px;
   max-width: 75ch;
   margin-left: 104px;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.0032em;
 }
 
 a{
@@ -168,6 +176,10 @@ a{
     line-height: 43px;
     letter-spacing: 0.0039em;
     height: 208px;
+  }
+
+  .title--1{
+    height: auto;
   }
 
   .sst{
@@ -216,6 +228,10 @@ a{
     line-height: 47px;
     letter-spacing: 0.0043em;
     height: 249px;
+  }
+
+  .title--1{
+    height: auto;
   }
 
   .sst{
