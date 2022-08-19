@@ -1,3 +1,5 @@
+
+
 let question1 = '{"pi" : "3.7%", "peui" : "3.7%", "i" : "51.9%", "supi" :"40.7%"}';
 
 let question2 = '{"o" : "29.6%", "n" : "18.5%", "pe" : "51.9%"}';
@@ -24,7 +26,11 @@ var clic = document.querySelector("#btn");
 var ques = document.querySelector("#question");
 var rep = document.querySelector("#rep");
 
-clic.addEventListener("click", ale);
+if (ques){
+    clic.addEventListener("click", ale);
+
+    ale();
+}
 
 function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
@@ -38,4 +44,4 @@ function ale (){
     rep.innerHTML = reponse[aleatoire];
 }
 
-ale();
+
