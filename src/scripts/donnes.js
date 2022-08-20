@@ -20,8 +20,8 @@ let q5 = JSON.parse(question5);
 let q6 = JSON.parse(question6);
 
 
-var question = ["Est-ce qu’épargner de l’argent vous intéresse ?", "Est-ce qu’un site aidant à épargner de l'argent vous intéresserait ?", "Est-ce que vous utilisez déjà un système pour épargner de l’argent, exemple : un bocal, des pochettes, une tirelire ?", "Est-ce que ce système vous aide ?", "Est-ce qu’une méthode informatique  en complément des méthodes ci-dessus vous seraient utiles ?", "Comme méthode informatique, que préférez-vous ?"];
-var reponse = [[q1.pi, q1.peui, q1.i, q1.supi],[q2.o, q2.n, q2.pe], [q3.o, q3.n], [q4.o, q4.n], [q5.pu, q5.mu, q5.u, q5.au, q5.tu], [q6.j, q6.c, q6.jc, q6.a]];
+var question = ["Est-ce qu’épargner de l’argent vous intéresse\u00a0?", "Est-ce qu’un site aidant à épargner de l'argent vous intéresserait\u00a0?", "Est-ce que vous utilisez déjà un système pour épargner de l’argent, exemple\u00a0: un bocal, des pochettes, une tirelire\u00a0?", "Est-ce que ce système vous aide\u00a0?", "Est-ce qu’une méthode informatique  en complément des méthodes ci-dessus vous seraient utiles\u00a0?", "Comme méthode informatique, que préférez-vous\u00a0?"];
+var reponse = [["Pas intéressé : " + q1.pi, " Peu intéressé : " + q1.peui, " Intéressé : " + q1.i, " Super intéressé : " + q1.supi],["Oui : " + q2.o, " Non : " + q2.n, " Peut-être : " + q2.pe], ["Oui : " + q3.o," Non : " + q3.n], ["Oui : " + q4.o, " Non : " + q4.n], ["Pas utile : " + q5.pu, " Moyennement utile : " + q5.mu, " Utile : " + q5.u, " Assez utile : " + q5.au, " Très utile : " + q5.tu], ["Jeu : " + q6.j, " Conseils : " + q6.c, " Jeu et conseils : " + q6.jc, " Autre : " + q6.a]];
 var clic = document.querySelector("#btn");
 var ques = document.querySelector("#question");
 var rep = document.querySelector("#rep");

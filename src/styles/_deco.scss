@@ -19,32 +19,24 @@
 .imgcons{
     width: 211px;
     height: 385px;
-    margin-left: 16px;
+    margin-left: auto;
+    display: block;
     margin-top: 16px;
+    margin-right: auto;
 }
 
-.imgcons--2{
-    margin-top: 0;
-}
-
-.div2{
-    margin-left: 16px;
-    position: relative;
-    bottom: 37px;
-}
-
-.div3{
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-}
-
-.decosec{
+.pageapp{
     background-image: url(../assets/images/Vector3.svg);
     background-repeat: no-repeat;
-    height: 549px;
     margin-top: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     background-size: cover;
+    background-position-x: center;
+}
+
+.imgsec{
+    display: block;
 }
 
 .pub{
@@ -111,9 +103,28 @@
     padding-bottom: 26px;
 }
 
+.queale{
+    display: block;
+    margin-bottom: 32px;
+}
+
+.btn{
+    padding-top: 4px;
+    width: 19ch;
+    border-radius: 26px;
+    background: none;
+    padding-bottom: 4px;
+    border-color: $c-sec;
+}
+
+.btn:hover{
+    background-color: $c-quat;
+    cursor: pointer;
+}
+
 .userjourney{
     display: block;
-    width: 400px;
+    width: 370px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -191,6 +202,17 @@
         width: 550px;
     }
 
+}
+
+@media(min-width: 700px){
+    .pageapp{
+        background-position-y: bottom;
+    }
+
+    .imgsec{
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media(min-width: 800px){
@@ -287,9 +309,6 @@
         width: 900px;
     }
 
-    .pageapp{
-        display: flex;
-    }
     .decosec{
         background-image: url(../assets/images/Vector3.svg);
         background-repeat: no-repeat;
@@ -305,24 +324,6 @@
     .imgcons{
         width: 211px;
         height: 385px;
-        margin-left: 16px;
-        margin-top: 16px;
-    }
-    
-    .imgcons--2{
-        margin-top: 0;
-    }
-    
-    .div2{
-        margin-left: 16px;
-        position: relative;
-        bottom: 37px;
-        width: 50px;
-    }
-    
-    .div3{
-        display: flex;
-        justify-content: center;
         margin-top: 16px;
     }
     
