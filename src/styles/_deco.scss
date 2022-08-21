@@ -66,6 +66,14 @@
     background-size: cover;
 }
 
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
 .badge{
     width: 166px;
     height: 50px;
@@ -200,6 +208,11 @@
 
     .userjourney{
         width: 550px;
+    }
+
+    .video{
+        width: 500px;
+        height: 315px;
     }
 
 }
